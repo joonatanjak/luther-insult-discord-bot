@@ -8,6 +8,6 @@ You must have `git` and `node` installed.
 1. Clone the repository.
     `git clone https://github.com/joonatanjak/luther-insult-discord-bot.git`
 2. Install the requirements.
-    `npm install luther-insult-djsckrd-bot/`
+    `npm install luther-insult-discord-bot/`
 3. Run the bot with your Discord Bot API token.
     `BOT_KEY='YOUR-TOKEN-HERE' node luther-insult-discord-bot`
