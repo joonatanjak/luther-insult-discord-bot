@@ -1,0 +1,11 @@
+{
+  "name": "luther-insult-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot which insults you with an insult from Martin Luther.",
+  "main": "index.js",
+  "author": "Joonatan Jakobson",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
