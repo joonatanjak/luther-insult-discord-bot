@@ -20,11 +20,11 @@ client.on('message', message => {
 	const command = args.shift().toLowerCase();
     
 	if (command === 'insult') {
-        if(message.mentions.members.first()) insult(message.channel, message.mentions.members.first());
-        else if (args[0]) message.guild.members.fetch({ query: args[0], limit: 1 }).then(members => insult(message.channel, members.first().user)).catch(console.error);
-        else insult(message.channel, message.author);
+        	if(message.mentions.members.first()) insult(message.channel, message.mentions.members.first());
+        	else if (args[0]) message.guild.members.fetch({ query: args[0], limit: 1 }).then(members => insult(message.channel, members.first().user)).catch(console.error);
+        	else insult(message.channel, message.author);
 
-    }
+    	}
     
 });
 
